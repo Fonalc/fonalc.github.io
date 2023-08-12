@@ -31,7 +31,7 @@
 
         a {
             color: rgb(153, 153, 209);
-            text-decoration: none;
+            
         }
         fieldset {
             border-radius: 15px;
@@ -39,15 +39,25 @@
         }
     </style>
 </head>
-
 <body>
-    <h1>Welcome to my page!</h1>
+    <a style="color: black; text-decoration: none;" href="/index.html">&lt;-- Home</a>
+    <h1>FA Help - Plugins</h1>
     <fieldset>
-        <legend><b> My Projects: </b></legend>
-        <div class="box">
-            <box-title><a href="/fa.html">> FA</a></box-title> &lt;--- clickable link<br />
-            <box-description> > FA is a script for Kohls Admin House, made by one person... Me! as</box-description>
-        </div><br />
+        <legend>Plugins not working/failed to install.</legend>
+        Plugins fail to install when the json data is not correct, It should look like this:
+        <br>[ <br>
+            "Commands":{<br>
+               "pk.fight":{<br>
+                  "Description":"Pokekohl's Test Command.",<br>
+                  "Code":"blah blah"<br>
+               } <br>
+            },<br>
+            "Name":"pokekohl",<br>
+            "Creator":"fonalc"<br>
+         ]<br>
+         If that fails then please message me at my discord, <br>
+         you can join <a href="/fa.html">here</a>, OR use <a href="https://jsonformatter.curiousconcept.com/#">THIS!</a> which will help you correct it!
     </fieldset>
+
 </body>
 </html>
