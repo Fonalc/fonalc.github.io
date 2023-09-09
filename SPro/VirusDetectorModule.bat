@@ -1,5 +1,5 @@
 SET /p yn=Would you like to scan? (Y/N): 
-if %yn%==Y GOTO :Scan
+if %yn%==Y GOTO Scan
 EXIT
 if %yn%==N EXIT
 
