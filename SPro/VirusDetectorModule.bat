@@ -1,0 +1,1 @@
+echo VirusDetector has ran.
